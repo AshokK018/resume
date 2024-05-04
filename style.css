@@ -31,6 +31,10 @@ body
 {
     position: relative;
     background: #4db8ff;
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,.37);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-left: 1px solid  #99ffff;
     padding: 40px;
 }
 .profileText
@@ -62,7 +66,7 @@ body
 }
 .profileText h2
 {
-    color: #fff;
+    color: #f9f7f7;
     font-size: 1.5em;
     margin-top: 20px;
     text-transform: uppercase;
@@ -153,6 +157,10 @@ font-weight: 300;
 {
     position: relative;
     background: #99ffff;
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,.37);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-right: 1px solid cornflowerblue;
     padding: 40px;
 }
 .about 
